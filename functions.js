@@ -133,7 +133,7 @@ OUTPUT:
 */
 
 export function findByName(name, arr) {
-    let newArr = arr.filter(arr => arr.name === 'sassy');
+    let newArr = arr.filter(arr => arr.name === name);
     return newArr[0];
 }
 
